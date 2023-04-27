@@ -91,7 +91,7 @@ class Components : EntityComponentInitializer {
             Identifier("rpgstats:mining"),
             StatFakeAttributeAction(
                 "rpgstats.fakestat.mining_speed",
-                0.1
+                0.2
             ) { true },
             StatSpecialAction(
                 "rpgstats.special.magical_infusion",
@@ -164,7 +164,7 @@ class Components : EntityComponentInitializer {
             Identifier("rpgstats:defence"),
             StatAttributeAction(
                 EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE,
-                0.01
+                0.2
             ) { true },
             StatAttributeAction(
                 EntityAttributes.GENERIC_MAX_HEALTH,
@@ -185,7 +185,7 @@ class Components : EntityComponentInitializer {
             Identifier("rpgstats:fishing"),
             StatAttributeAction(
                 EntityAttributes.GENERIC_LUCK,
-                0.05
+                0.1
             ) { true },
             StatSpecialAction(
                 "Vitamin rich",
